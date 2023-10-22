@@ -5,7 +5,7 @@ import { faMapMarkerAlt, faMagnifyingGlass, faWater, faWind } from '@fortawesome
 function Weather() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
-  const API_KEY = "dd8d0a0c2d7631a5476998b5d9496ae4";
+  const API_KEY = "YOUR_API_KEY";
 
   const search = async (e) => {
       const data = await fetch(
