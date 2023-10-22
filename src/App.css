@@ -36,3 +36,141 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #06283d;
+}
+
+.weather-container {
+  position: relative;
+  width: 350px;
+  height: 105px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.search-box {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.search-box input {
+  color: #06283d;
+  width: 80%;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-width: 0;
+}
+
+.search-box input::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  color: #06283d;
+  text-transform: capitalize;
+}
+
+.search-box button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  color: #06283d;
+  background: #dff6ff;
+  border-radius: 50%;
+  border-width: 0;
+  font-size: 22px;
+  transition: 0.4s ease;
+}
+
+.search-box button:hover {
+  color: #fff;
+  background: #06283d;
+}
+
+.input-box {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.map-icon {
+  position: relative;
+  font-size: 30px;
+  color: #06283d;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding-right: 12px;
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.weather-details .humidity,
+.weather-details .wind {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+}
+
+.weather-details .humidity {
+  padding-left: 20px;
+  justify-content: flex-start;
+}
+
+.weather-details .humidity {
+  padding-left: 20px;
+  justify-content: flex-start;
+}
+
+.weather-details .wind {
+  padding-right: 20px;
+  justify-content: flex-end;
+}
+.weather-details span {
+  color: #06283d;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.weather-details p {
+  color: #06283d;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.weather-details FontAwesomeIcon{
+padding: auto;
+}
+
+.humidity > .svg-inline--fa,
+.wind > .svg-inline--fa {
+  padding-right: 10px;
+}
+
