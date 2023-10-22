@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You need your own API Key for it to work. 
 
+## Screenshot
+
+![image](https://github.com/paulcfo/weather-app/assets/87904476/236ffec4-63a5-45ae-9437-78c44a00ee26)
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
