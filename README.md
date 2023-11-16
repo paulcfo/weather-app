@@ -1,5 +1,7 @@
 # Weather APP
 
+[Live Demo](https://paulcfo.github.io/weather-app/)
+
 ## Description
 
 A simple web application to check the current weather and forecast. Provides real-time weather updates for locations worldwide. 
