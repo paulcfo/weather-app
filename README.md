@@ -1,6 +1,8 @@
-# Simple Responsive Weather APP
+# Weather APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It's a simple weather app using the Open Weather API. 
+## Description
+
+A simple web application to check the current weather and forecast. Provides real-time weather updates for locations worldwide. 
 
 ## API Key
 
@@ -11,29 +13,17 @@ You need your own API Key for it to work.
 ![image](https://github.com/paulcfo/weather-app/assets/87904476/236ffec4-63a5-45ae-9437-78c44a00ee26)
 
 
-### `npm start`
+### Installation
+#### 1. Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`git clone https://github.com/paulcfo/weather-app.git`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 2. Navigate to the project directory:
+`cd weather-app`
 
-### `npm test`
+#### 3. Install dependencies:
+`npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open your web browser and go to http://localhost:3000.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-book.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Weather data provided by OpenWeather.
